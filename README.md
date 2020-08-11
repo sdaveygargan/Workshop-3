@@ -51,7 +51,7 @@ There are two files present in the project to start off with:
   <img src="Gifs/Q2.gif">
 </p>
 
-3. Write a script that allows you to move the original cube with the arrow keys on the keyboard (in the X-Z plane). You will need to use the `Input` class provided by Unity within the script. It might help you to look up the API for the `Input` class in the Unity documentation.
+3. Write a script that allows you to move the original cube with the arrow keys on the keyboard (in the X-Z plane). You will need to use the `Input` class provided by Unity within the script. It might help you to look up the API for the `Input` class in the Unity documentation. Note that it may help visually to add a static object to the scene as a reference point, such as a floor.
 
 <p align="center">
   <img src="Gifs/Q3.gif">
@@ -69,7 +69,7 @@ There are two files present in the project to start off with:
   <img src="Gifs/Q5.gif">
 </p>
 
-6. Currently the cube can move outside the bounds of the camera view. Write a script which is to be attached to the camera, such that it tracks the cube from its position (i.e. by rotating). The script should theoretically allow any game object to be tracked, not specifically the cube. Note that it may help visually to add a static object to the scene as a reference point, such as a floor.
+6. Currently the cube can move outside the bounds of the camera view. Write a script which is to be attached to the camera, such that it tracks the cube from its position (i.e. by rotating). The script should theoretically allow any game object to be tracked, not specifically the cube.
 
 <p align="center">
   <img src="Gifs/Q6.gif">
